@@ -1,7 +1,36 @@
 .botoes_header{
-    
-
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    justify-content: center;
+}
+.img_header{
+   
 }
 .nome{
     color:aqua;
+}
+
+image{
+     max-width:200px;
+     max-height:150px;
+     width: auto;
+     height: auto;
+}
+
+.img_insta{
+    max-width:45px;
+    max-height:100px;
+    width: auto;
+    height: auto;
+}
+
+li {
+    list-style-type: none;
+  }
+*{
+    text-decoration: none;
+}
+body{
+    background-color: rgb(36, 34, 34);
 }
