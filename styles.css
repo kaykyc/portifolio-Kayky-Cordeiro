@@ -1,14 +1,104 @@
+body{
+    background-color: black;
+    margin-top: 2%;
+}
+footer{
+    color: #F6F6F6;
+}
 .botoes_header{
     display: flex;
     flex-direction: row;
-    gap: 10%;
+    gap: 5%;
     justify-content: center;
+    color: #FF577F; 
+    
 }
-.img_header{
-   
+.apresentacao_texto{
+    color: white;
+    flex-wrap: wrap;
+}
+.tela_inicial{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4%;
+}
+.tela_inicial_esquerdo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+hr{
+    border-color: #FF577F;
+}
+.texto_botao{
+    font-family: 'Do Hyeon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #FF577F;
+}
+.rede_botao{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 14px;
+    border: 2px solid #FF577F;
+    border-radius: 8px;
+    margin-bottom: 2%;
+    color: white;
+    height: 40px;
+    width: 378px;
+}
+.rede_botoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    color: white;
+}
+
+.botoes_header .botao {
+    text-align: center; 
+}
+.botoes_header .botao a .img_header {
+    margin-right: 3px;
+}
+
+.botao{
+    display: flex;
+    align-items: center center;
+    flex-direction: column;
+}
+
+.botao:hover{
+   border-bottom: 3px solid #FF577F;
+}
+.fotokayky{
+    max-width: 488px;
+    max-height: 552px;
+    border-radius: 9%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    margin-left: 10%;
+    margin-right: 4%;
 }
 .nome{
-    color:aqua;
+    font-family: 'Do Hyeon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 56px;
+    letter-spacing: 0.09em;
+    color: #F6F6F6;
+
+}
+.nome strong{
+    color: #FF577F;
 }
 
 image{
@@ -30,7 +120,17 @@ li {
   }
 *{
     text-decoration: none;
+    color: inherit; 
 }
-body{
-    background-color: rgb(36, 34, 34);
+
+footer{
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+    justify-content: center;
+    font-family: 'Lato'; 
+    font-style: normal; 
+    font-weight: 400; 
+    font-size: 16px; 
+    line-height: 36px;
 }
